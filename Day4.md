@@ -1,0 +1,161 @@
+# Hardware:
+### PC, Hardware ,  Maintainance and Triuble Shooting in Depth
+## Components of CPU:
+### 1. Motherboard : 
+A motherboard is the main circuit board inside a computer that connects and allows communication between all the different components and peripherals.
+
+What does a motherboard do? <br>
+It houses the CPU, memory (RAM), storage devices, and expansion cards.
+Provides slots and sockets for components to plug into.
+Contains chipsets that manage data flow between the CPU, memory, and peripherals.<br>
+
+#### Key parts of Motherboard:
+- _CPU Socket_: <br>
+   It is mechanical and electrical interface on a motherboard that securely connects a central processing unit (CPU) to the rest of the computer system.
+- _Chipset_:<br>
+Controls communication between CPU, memory, storage, and peripherals.
+Usually divided into Northbridge (handles CPU to RAM and graphics) and Southbridge (handles input/output).<br>
+- _CMOS Battery_:<br>
+Small battery that powers the BIOS settings memory when the PC is off.<br>
+- _Storage Connectors_:<br>
+   - SATA ports for connecting hard drives and SSDs.
+   - M.2 slots for newer, faster SSDs.<br>
+- _RAM Slots (Memory Slots)_:<br>
+   - Slots where RAM (memory) modules are inserted.
+   - Usually 2 to 8 slots, supporting different types of RAM (DDR3, DDR4, DDR5).<br>
+- _Expansion Slots (PCI, PCI Express)_:<br>
+   - Used for adding expansion cards like graphics cards, sound cards, network cards.
+   - PCI Express (PCIe) is the modern standard with different lane sizes (x1, x4, x8, x16).< br>
+- _BIOS/UEFI Chip_:<br>
+   - Firmware that boots up the system and manages hardware initialization.
+- _Input/Output (I/O) Ports_:<br>
+   - Ports on the back panel for connecting peripherals: USB, audio jacks, Ethernet, HDMI, DisplayPort, PS/2, etc.<br>
+- _Power Connectors_
+(Connectors for power supply cables):<br>
+  - 24-pin main power connector.
+  - 4 or 8-pin CPU power connector.<br>
+- _Cooling Components_:<br>
+  - Heatsinks on chipset and VRMs to dissipate heat.
+
+
+![](components-of-motherboard.png)
+
+
+
+
+
+
+### 2. Fan :
+
+* Used for cooling the internal components.
+* May be attached to the **CPU**, **cabinet**, or **power supply**.
+* Prevents overheating and ensures airflow inside the cabinet.
+
+
+
+### 3. Power Supply with Fan :
+
+* Provides **electrical power** to all parts of the computer.
+* Has a **built-in fan** to cool itself during operation.
+* Converts electricity from the wall (AC) to usable computer power (DC).
+
+
+
+### 4. Connectors :
+
+* Cables and plugs that connect components to the power supply and motherboard.
+* Types include:
+
+  * **Power connectors** (SATA, Molex)
+  * **Data connectors** (SATA cables for HDD/optical drive)
+
+
+
+### 5. Expansion Slots :
+
+* Found on the motherboard.
+* Used to insert extra cards like:
+
+  * **Graphics cards**
+  * **Sound cards**
+  * **Wi-Fi/network cards**
+
+
+
+### 6. Hard Disk Drive (HDD) :
+
+* Stores data, software, and the operating system.
+* Located **under the optical drive** in the cabinet.
+* Connected to the motherboard with **SATA data and power cables**.
+
+
+### 7. Optical Drive (CD/DVD Drive) :
+
+* Used to read/write **CDs and DVDs**.
+* Located **in front of the power supply**, usually near the top front of the cabinet.
+* Connected using **SATA data and power connectors**.
+
+
+
+
+
+
+
+## RAM ( Random Access Memory ) V/S Cache Memory:
+| Feature            | **RAM**                                        | **Cache**                                            |
+| ------------------ | ---------------------------------------------- | ---------------------------------------------------- |
+|  **Speed**       | **Slower** than cache                          | **Faster** than RAM (very high speed)                |
+|  **Size**        | Much **larger** (e.g., 8 GB, 16 GB, 32 GB)     | Much **smaller** (e.g., 2 MB, 8 MB, 32 MB)           |
+|  **Purpose**     | Stores data for **currently running programs** | Stores **frequently used CPU instructions and data** |
+|  **Access Time**  | slower access          | quick access by CPU             |
+
+
+ - _Why we use cache Memory_:<br>
+     * Cache memory is a small, super-fast memory located close to the CPU.
+     * It stores frequently used data and instructions so the CPU can access them quickly.
+     * This reduces the time the CPU waits for data from slower RAM, speeding up overall computer performance.
+     * Without cache, the CPU would be much slower because it would constantly wait for data.<br>
+
+
+
+
+
+
+## RAM (Random Access Memory V/S Hard Disk):
+
+
+| Feature              | RAM (Random Access Memory)           | Hard Disk                            |
+| -------------------- | ----------------------------------------------- | ---------------------------------------------- |
+| **Purpose**          | Temporary memory for currently running programs | Permanent storage for files, software, and OS  |
+| **Storage Type**   | Temporary (loses data when off)                   | Permanent (keeps data when off)|
+| **Speed**            | Much faster                                     | Slower compared to RAM                         |
+| **Storage Capacity** | Smaller                   | Larger                  |
+| **Access Method**    | Direct access by CPU                            | Slower access through file system              |
+| **Cost**      |  Expensive                                  | Cheaper                                        |
+| **Function**         | Helps run active programs and processes         | Stores data, files, OS, and installed programs |
+
+
+
+
+
+## Process of  Booting:
+
+Power on  
+   ↓  
+BIOS runs  
+   ↓  
+RAM active  
+   ↓  
+Bootstrap runs  
+   ↓  
+OS loaded from HDD to RAM  
+   ↓  
+System ready
+
+
+
+
+
+
+
+
